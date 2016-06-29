@@ -8,6 +8,7 @@ module.exports = function(grunt){
 	});
 
 	// Configure Plugins
+	// Sass files are concatinated/compiled here
 	grunt.initConfig({
 		sass: {
 			dist: {
@@ -19,6 +20,7 @@ module.exports = function(grunt){
 				}
 			}
 		},
+		// Javascript files are concatinated here
 		uglify: {
 			my_target: {
 				files: {
