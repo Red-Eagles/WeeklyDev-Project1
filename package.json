@@ -1,0 +1,21 @@
+{
+  "name": "redeagles-project1",
+  "version": "1.0.0",
+  "description": "The Red Eagles Weekly Dev Project 1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Red-Eagles/WeeklyDev-Project1.git"
+  },
+  "author": "The Red Eagles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Red-Eagles/WeeklyDev-Project1/issues"
+  },
+  "homepage": "https://github.com/Red-Eagles/WeeklyDev-Project1#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}
