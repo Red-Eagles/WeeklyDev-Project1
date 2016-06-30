@@ -3,13 +3,16 @@
 //font 'open sans light(300)'
 	@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
+//flex structure
+	@import "components/flexStructure.scss";
+
 //buttons
 	//submit
-		@import "../css/components//buttons/btn_submit";
+		@import "components/buttons/btn_submit";
 
 //header sass
-@import "../css/components/header/header.scss";
+@import "components/header/header.scss";
 
 //main sass
 	//login
-	@import "../css/components/main/loginScreen/mainlogin.scss";
+	@import "components/main/loginScreen/mainlogin.scss";
