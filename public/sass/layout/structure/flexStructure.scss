@@ -1,0 +1,25 @@
+body, html, h1, h2, h3, h4, h5{
+  margin: 0;
+  padding: 0;
+}
+
+//Variables
+
+$fullwidth: 100%;
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header {
+	flex: $fullwidth;
+}
+
+main {
+	flex: $fullwidth;
+}
+
+footer {
+	flex: $fullwidth;
+}

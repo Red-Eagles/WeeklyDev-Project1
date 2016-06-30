@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-body, html {
-  margin: 0 !important;
-  padding: 0 !important; }
+body, html, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0; }
 
 .wrapper {
   display: flex;
@@ -16,7 +16,7 @@ main {
 footer {
   flex: 100%; }
 
-.btn-submit {
+.btn-green {
   padding: 5px 15px 5px 15px;
   background-color: #56c954;
   border-radius: 5px;
@@ -45,7 +45,7 @@ main {
   margin: 0 auto; }
   .loginWrapper h2 {
     align-self: flex-start; }
-  .loginWrapper .btn-submit {
+  .loginWrapper .btn-login {
     align-self: flex-end; }
   .loginWrapper .input-Text {
     width: 100%; }
