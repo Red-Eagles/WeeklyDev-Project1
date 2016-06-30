@@ -1,1 +1,15 @@
 // Main CSS
+
+//font 'open sans light(300)'
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+//buttons
+	//submit
+		@import "../css/components//buttons/btn_submit";
+
+//header sass
+@import "../css/components/header/header.scss";
+
+//main sass
+	//login
+	@import "../css/components/main/loginScreen/mainlogin.scss";

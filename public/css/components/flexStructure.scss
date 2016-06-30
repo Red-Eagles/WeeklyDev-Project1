@@ -1,0 +1,21 @@
+body, html{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header {
+	flex: 100%;
+}
+
+main {
+	flex: 100%;
+}
+
+footer {
+	flex: 100%;
+}

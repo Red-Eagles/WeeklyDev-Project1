@@ -1,0 +1,26 @@
+main {
+	background-color: #fafdfe;
+
+}
+
+.loginWrapper {
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+	width: 25%;
+	margin: 0 auto;
+	h2 {
+		align-self: flex-start;
+	}
+
+	.btn-submit {
+		align-self: flex-end;
+	}
+
+	.input-Text {
+		width: 100%;
+	}
+	p {
+		align-self: flex-start;
+	}
+}
