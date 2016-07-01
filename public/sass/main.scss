@@ -1,21 +1,21 @@
 // Main CSS
 
 //font 'open sans light(300)'
-	@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
-//variable
-	$fullwidth: 100%;
-	$mainpadding: 1%;
-	$mainmargin: 1%;
+//library imports
+@import "lib/bourbon/bourbon";
+
+//variables
+@import "utils/variables_colours";
+@import "utils/variables_dimensions";
 
 //flex structure
-	@import "layout/structure/flexStructure.scss";
+@import "layout/structure/flexStructure.scss";
 
 //components
-	//buttons
-		@import "components/btn";
-	//textfields
-		@import "components/textfields.scss";
+	@import "components/btn";
+	@import "components/textfields";
 
 
 //header sass
@@ -24,3 +24,22 @@
 //main sass
 	//login
 	@import "layout/main/loginScreen/mainlogin.scss";
+
+
+body, html, h1, h2, h3, h4, h5, li{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body, html {
+	width: $fullwidth;
+}
+
+body {
+	background-color: $color-base-background-grey;
+
+	main {
+		margin: 20px;
+	}
+}

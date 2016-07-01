@@ -1,5 +1,4 @@
 main {
-	background-color: #fafdfe;
 	margin-top: 4%;
 }
 
@@ -7,9 +6,9 @@ main {
 	align-items: center;
 	flex-direction: column;
 	display: flex;
-	width: 25%;
+	width: 100%;
+	max-width: 600px;
 	margin: 0 auto;
-	
 
 	h2 {
 		align-self: flex-start;
@@ -17,13 +16,13 @@ main {
 	}
 
 	.input-Text {
-		width: $fullwidth;
-		margin: $mainmargin;
+		@include calc(width, "#{$fullwidth} - #{$mainmargin}");
+		margin: 0 0 $mainmargin;
 	}
 
 	.btn-login {
 		align-self: flex-end;
-		margin: $mainmargin+4% 0 $mainmargin;
+		margin: 0 0 $mainmargin;
 	}
 
 	p {

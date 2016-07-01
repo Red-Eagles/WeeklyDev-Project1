@@ -1,15 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-body, html, h1, h2, h3, h4, h5, li {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans Condensed', sans-serif; }
-
-body * {
-  transfrom: scale(2); }
-
-body, html {
-  width: 100%; }
-
 .wrapper {
   display: flex;
   flex-direction: column; }
@@ -27,7 +16,7 @@ footer {
   padding: 5px 15px 5px 15px;
   background-color: #56c954;
   border-radius: 5px;
-  color: white;
+  color: #fff;
   border: 0px; }
 
 .tf-blank {
@@ -39,34 +28,48 @@ header {
   background-color: #a83837;
   color: #fafdfe; }
   header .headerLogo {
-    padding: 1%;
+    padding: 20px;
     display: flex;
     align-items: center;
     flex-wrap: wrap; }
     header .headerLogo h1 {
-      margin: 1%; }
+      margin: 20px; }
 
 main {
-  background-color: #fafdfe;
   margin-top: 4%; }
 
 .loginWrapper {
   align-items: center;
   flex-direction: column;
   display: flex;
-  width: 25%;
+  width: 100%;
+  max-width: 600px;
   margin: 0 auto; }
   .loginWrapper h2 {
     align-self: flex-start;
-    margin: 1% 0 1%; }
+    margin: 20px 0 20px; }
   .loginWrapper .input-Text {
-    width: 100%;
-    margin: 1%; }
+    width: -webkit-calc(100% - 20px);
+    width: calc(100% - 20px);
+    margin: 0 0 20px; }
   .loginWrapper .btn-login {
     align-self: flex-end;
-    margin: 5% 0 1%; }
+    margin: 0 0 20px; }
   .loginWrapper p {
     align-self: flex-start;
-    margin: 1% 0 1%; }
+    margin: 20px 0 20px; }
+
+body, html, h1, h2, h3, h4, h5, li {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+body, html {
+  width: 100%; }
+
+body {
+  background-color: #fafdfe; }
+  body main {
+    margin: 20px; }
 
 /*# sourceMappingURL=stylesheet.css.map */

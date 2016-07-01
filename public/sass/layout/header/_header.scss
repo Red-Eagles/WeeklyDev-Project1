@@ -1,15 +1,15 @@
 header {
-	background-color: #a83837;
-	color: #fafdfe;
+	background-color: $color-base-red;
+	color: $color-base-background-grey;
 
 	.headerLogo {
 	  padding: $mainpadding;
 	  display: flex;
 	  align-items: center;
 	  flex-wrap: wrap;
+	  
 	  	h1 {
-	    	margin:$mainmargin;
-
+	    	margin: $mainmargin;
 		}
 	}
 }
