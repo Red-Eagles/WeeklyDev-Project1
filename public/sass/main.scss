@@ -4,11 +4,20 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
 //library imports
+<<<<<<< HEAD
 @import "lib/bourbon/bourbon";
 
 //variables
 @import "utils/variables_colours";
 @import "utils/variables_dimensions";
+=======
+	@import "lib/bourbon/bourbon";
+
+//variable
+	$fullwidth: 100%;
+	$mainpadding: 1%;
+	$mainmargin: 1%;
+>>>>>>> master
 
 //flex structure
 @import "layout/structure/flexStructure.scss";
