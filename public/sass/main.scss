@@ -3,12 +3,20 @@
 //font 'open sans light(300)'
 	@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
+//variable
+	$fullwidth: 100%;
+	$mainpadding: 1%;
+	$mainmargin: 1%;
+
 //flex structure
 	@import "layout/structure/flexStructure.scss";
 
-//buttons
-	//submit
-		@import "components/buttons/btn";
+//components
+	//buttons
+		@import "components/btn";
+	//textfields
+		@import "components/textfields.scss";
+
 
 //header sass
 @import "layout/header/header.scss";

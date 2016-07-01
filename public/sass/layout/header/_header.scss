@@ -3,12 +3,13 @@ header {
 	color: #fafdfe;
 
 	.headerLogo {
-	  padding: 1%;
+	  padding: $mainpadding;
 	  display: flex;
 	  align-items: center;
 	  flex-wrap: wrap;
 	  	h1 {
-	    	padding:1%;
+	    	margin:$mainmargin;
+
 		}
 	}
 }
