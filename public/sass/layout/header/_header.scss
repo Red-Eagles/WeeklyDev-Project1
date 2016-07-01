@@ -1,0 +1,15 @@
+header {
+	background-color: #a83837;
+	color: #fafdfe;
+
+	.headerLogo {
+	  padding: $mainpadding;
+	  display: flex;
+	  align-items: center;
+	  flex-wrap: wrap;
+	  	h1 {
+	    	margin:$mainmargin;
+
+		}
+	}
+}

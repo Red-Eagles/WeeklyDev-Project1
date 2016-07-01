@@ -1,0 +1,33 @@
+main {
+	background-color: #fafdfe;
+	margin-top: 4%;
+}
+
+.loginWrapper {
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+	width: 25%;
+	margin: 0 auto;
+	
+
+	h2 {
+		align-self: flex-start;
+		margin: $mainmargin 0 $mainmargin;
+	}
+
+	.input-Text {
+		width: $fullwidth;
+		margin: $mainmargin;
+	}
+
+	.btn-login {
+		align-self: flex-end;
+		margin: $mainmargin+4% 0 $mainmargin;
+	}
+
+	p {
+		align-self: flex-start;
+		margin: $mainmargin 0 $mainmargin;
+	}
+}
