@@ -1,0 +1,60 @@
+.add-edit-wrapper {
+	flex-direction: column;
+	display: flex;
+	width: 35%;
+	margin: 0 auto;
+	.hide {
+		display: none;
+		.new-task-wrapper {
+			display: flex;
+			width: $fullwidth;
+			input:nth-child(1){
+				flex: 8;
+				margin: $mainmargin;
+			}
+			input:nth-child(2){
+				flex: 2;
+				margin: $mainmargin;
+			}
+		}
+	}
+	.task-wrapper {
+		display: flex;
+		width: $fullwidth;
+		margin-top: $mainmargin+4%;
+		h2 {
+			flex: 8;
+			margin: $mainmargin;
+		}
+		input {
+			flex: 2;
+			margin: $mainmargin;
+		}
+	}
+
+	.task-list {
+		table{
+			width: $fullwidth;
+			margin: $mainmargin;
+			tr:nth-child(odd) { 
+					background-color: #ebebeb; 
+				}
+			tr {
+				width: $fullwidth;
+				display: flex;
+				background-color: #ffffff; 
+				.td-name {
+					flex: 8;
+				}
+				.td-add-edit {
+					flex: 2;
+				}
+			}
+		}
+	}
+
+
+	h2 {
+		margin: $mainmargin;
+	}
+}
