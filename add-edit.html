@@ -4,6 +4,14 @@
 		<meta charset="UTF-8">
 		<title>Team Eagles Red | To Do List</title>
 		<link rel="stylesheet" href="public/css/stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		    $("#toggleHide").click(function(){
+		        $("#hide").slideToggle();
+		    });
+		});
+		</script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -20,28 +28,32 @@
 					<form method="post" action="">
 
 						<div class="add-edit-wrapper">
+							
+							<div class="hide" id="hide">
 							<h2>New/Edit Task</h2>
 							<div class="new-task-wrapper">
+
 								<input type="text" placeholder="Task Title" class="tf-blank">
 								<input type="submit" values="Save" class="btn-green">
 							</div>
+						</div>
 
 							<div class="task-wrapper">
 								<h2>My Tasks</h2>
-								<input type="submit" value="New Task" class="btn-green">
+								<input type="button" value="New Task" class="btn-green" id="toggleHide">
 							</div>
 
 							<div class="task-list">
 								<table>
-									<tr>
+									<tr id="toggleHide">
 									<td class="td-name">Smoke a ciggy</td>
-									<td class="td-add-edit"><a href="">edit</a>
+									<td class="td-add-edit" id="toggleHide"><a href="" id="toggleHide">edit</a>
 									<a href="">delete</a></td>
 									</tr>
 
 									<tr>
 									<td class="td-name">Play the drums :P</td>
-									<td class="td-add-edit"><a href="">edit</a>
+									<td class="td-add-edit"><a href="" id="toggleHide">edit</a>
 									<a href="">delete</a></td>
 									</tr>
 
