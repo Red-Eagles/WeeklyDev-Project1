@@ -66,4 +66,41 @@ main {
     align-self: flex-start;
     margin: 1% 0 1%; }
 
+.add-edit-wrapper {
+  flex-direction: column;
+  display: flex;
+  width: 35%;
+  margin: 0 auto; }
+  .add-edit-wrapper .new-task-wrapper {
+    display: flex;
+    width: 100%; }
+    .add-edit-wrapper .new-task-wrapper input:nth-child(1) {
+      flex: 8;
+      margin: 1%; }
+    .add-edit-wrapper .new-task-wrapper input:nth-child(2) {
+      flex: 2;
+      margin: 1%; }
+  .add-edit-wrapper .task-wrapper {
+    display: flex;
+    width: 100%;
+    margin-top: 5%; }
+    .add-edit-wrapper .task-wrapper h2 {
+      flex: 8;
+      margin: 1%; }
+    .add-edit-wrapper .task-wrapper input {
+      flex: 2;
+      margin: 1%; }
+  .add-edit-wrapper .task-list table {
+    width: 100%;
+    margin: 1%; }
+    .add-edit-wrapper .task-list table tr {
+      width: 100%;
+      display: flex; }
+      .add-edit-wrapper .task-list table tr .td-name {
+        flex: 8; }
+      .add-edit-wrapper .task-list table tr .td-add-edit {
+        flex: 2; }
+  .add-edit-wrapper h2 {
+    margin: 1%; }
+
 /*# sourceMappingURL=stylesheet.css.map */
