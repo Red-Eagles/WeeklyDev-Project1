@@ -1,0 +1,57 @@
+doctype html
+html(lang="en")
+	head
+		title Red Eagles
+		meta(charset="utf-8")
+		link(href="css/stylesheet.css", rel="stylesheet")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+		script.
+			$(document).ready(function(){
+			    $("#toggleHide").click(function(){
+			        $("#hide").slideToggle();
+			    });
+			});
+	body
+		.wrapper
+			header
+				.headerLogo
+					img(src="https://files.slack.com/files-pri/T1GKM95K5-F1MQAA33M/logo.png")
+					h1 Red Eagles
+			main
+				.add-edit
+					form(method="post" action="")
+						.add-edit-wrapper
+							#hide.hide
+								h2 New/Edit Task
+								.new-task-wrapper
+									input(type="text" placeholder="Task Title" class="tf-blank")
+									input(type="submit" value="Save" class="btn-green")
+								.importance
+									input(type="button" value="Highly Important" class="btn-highly-important")
+									input(type="button" value="Moderately Important" class="btn-moderated-important")
+									input(type="button" value="Low Importantance" class="btn-low-importance")
+						
+							.task-wrapper
+								h2 My Tasks
+								input(type="button" value="New Task" class="btn-green" id="toggleHide")
+
+							.task-list
+								table
+									tr
+										td(class="td-name") Smoke a ciggy
+										td#toggleHide.td-add-edit
+											img(src="http://image.flaticon.com/icons/svg/148/148767.svg")
+											img(src="http://image.flaticon.com/icons/svg/148/148766.svg")
+											img(src="http://image.flaticon.com/icons/svg/126/126483.svg")
+									tr
+										td(class="td-name") Play the drums
+										td#toggleHide.td-add-edit
+											img(src="http://image.flaticon.com/icons/svg/148/148767.svg")
+											img(src="http://image.flaticon.com/icons/svg/148/148766.svg")
+											img(src="http://image.flaticon.com/icons/svg/126/126483.svg")
+									tr
+										td(class="td-name") Develop Some more
+										td#toggleHide.td-add-edit
+											img(src="http://image.flaticon.com/icons/svg/148/148767.svg")
+											img(src="http://image.flaticon.com/icons/svg/148/148766.svg")
+											img(src="http://image.flaticon.com/icons/svg/126/126483.svg")
