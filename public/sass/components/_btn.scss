@@ -1,7 +1,34 @@
 .btn-green {
-	padding: 5px 15px 5px 15px;
+	padding: 5px 15px;
 	background-color: #56c954;
 	border-radius: 5px;
 	color: white;
 	border: 0px;
+}
+
+.btn-highly-important {
+	padding: 2.5px 10px;
+	border-radius: 5px;
+	color: white;
+	border: 0;
+
+	background-color: red;
+}
+
+.btn-moderated-important {
+	padding: 2.5px 10px;
+	border-radius: 5px;
+	color: white;
+	border: 0;
+
+	background-color: blue;	
+}
+
+.btn-low-importance {
+	padding: 2.5px 10px;
+	border-radius: 5px;
+	color: white;
+	border: 0;
+
+	background-color: green;
 }

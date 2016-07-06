@@ -5,7 +5,8 @@ body, html, h1, h2, h3, h4, h5, li {
   font-family: 'Open Sans Condensed', sans-serif; }
 
 body, html {
-  width: 100%; }
+  width: 100%;
+  background-color: #fafdfe; }
 
 .wrapper {
   display: flex;
@@ -21,11 +22,32 @@ footer {
   flex: 1; }
 
 .btn-green {
-  padding: 5px 15px 5px 15px;
+  padding: 5px 15px;
   background-color: #56c954;
   border-radius: 5px;
   color: white;
   border: 0px; }
+
+.btn-highly-important {
+  padding: 2.5px 10px;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+  background-color: red; }
+
+.btn-moderated-important {
+  padding: 2.5px 10px;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+  background-color: blue; }
+
+.btn-low-importance {
+  padding: 2.5px 10px;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+  background-color: green; }
 
 .tf-blank {
   padding: 10px;
@@ -44,7 +66,6 @@ header {
       margin: 1%; }
 
 main {
-  background-color: #fafdfe;
   margin-top: 4%; }
 
 .loginWrapper {
@@ -77,34 +98,35 @@ main {
       display: flex;
       width: 100%; }
       .add-edit-wrapper .hide .new-task-wrapper input:nth-child(1) {
-        flex: 8;
+        flex: 1;
         margin: 1%; }
       .add-edit-wrapper .hide .new-task-wrapper input:nth-child(2) {
-        flex: 2;
+        margin: 1%; }
+    .add-edit-wrapper .hide .importance {
+      margin-top: 1%; }
+      .add-edit-wrapper .hide .importance input {
         margin: 1%; }
   .add-edit-wrapper .task-wrapper {
     display: flex;
     width: 100%;
     margin-top: 5%; }
     .add-edit-wrapper .task-wrapper h2 {
-      flex: 8;
+      flex: 1;
       margin: 1%; }
     .add-edit-wrapper .task-wrapper input {
-      flex: 2;
       margin: 1%; }
   .add-edit-wrapper .task-list table {
-    width: 100%;
-    margin: 1%; }
+    width: 100%; }
     .add-edit-wrapper .task-list table tr:nth-child(odd) {
       background-color: #ebebeb; }
     .add-edit-wrapper .task-list table tr {
-      width: 100%;
       display: flex;
-      background-color: #ffffff; }
+      background-color: #ffffff;
+      padding: 1%; }
       .add-edit-wrapper .task-list table tr .td-name {
-        flex: 8; }
-      .add-edit-wrapper .task-list table tr .td-add-edit {
-        flex: 2; }
+        flex: 1; }
+      .add-edit-wrapper .task-list table tr img {
+        width: 20px; }
   .add-edit-wrapper h2 {
     margin: 1%; }
 

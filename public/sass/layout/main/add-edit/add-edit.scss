@@ -9,11 +9,17 @@
 			display: flex;
 			width: $fullwidth;
 			input:nth-child(1){
-				flex: 8;
+				flex: 1;
 				margin: $mainmargin;
 			}
 			input:nth-child(2){
-				flex: 2;
+				margin: $mainmargin;
+			}
+
+		}
+		.importance {
+			margin-top: $mainmargin;
+			input {
 				margin: $mainmargin;
 			}
 		}
@@ -23,11 +29,10 @@
 		width: $fullwidth;
 		margin-top: $mainmargin+4%;
 		h2 {
-			flex: 8;
+			flex: 1;
 			margin: $mainmargin;
 		}
 		input {
-			flex: 2;
 			margin: $mainmargin;
 		}
 	}
@@ -35,19 +40,19 @@
 	.task-list {
 		table{
 			width: $fullwidth;
-			margin: $mainmargin;
 			tr:nth-child(odd) { 
 					background-color: #ebebeb; 
 				}
 			tr {
-				width: $fullwidth;
 				display: flex;
-				background-color: #ffffff; 
+				background-color: #ffffff;
+				padding: $mainpadding;
+
 				.td-name {
-					flex: 8;
+					flex: 1;
 				}
-				.td-add-edit {
-					flex: 2;
+				img {
+					width: 20px;
 				}
 			}
 		}
