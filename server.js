@@ -12,6 +12,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 router.get('/', function (req, res) {
     res.render('login');
 });
+router.get('/taskview', function (req, res) {
+    res.render('add-edit');
+});
 
 app.listen(3000);
 module.exports = app;

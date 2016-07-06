@@ -1,7 +1,21 @@
 doctype html
 html(lang="en")
-  head
-    title Red Eagles
-  body
-    h1 This is a good title
-    p And this website is gonna make millions
+	head
+		title Red Eagles
+		meta(charset="utf-8")
+		link(href="css/stylesheet.css", rel="stylesheet")
+	body
+		.wrapper
+			header
+				.headerLogo
+					img(src="https://files.slack.com/files-pri/T1GKM95K5-F1MQAA33M/logo.png")
+					h1 Red Eagles
+			main
+				.login
+					form(method="post", action="")
+						.loginWrapper
+							h2 Login
+								input(type="text", placeholder="username", class="input-Text tf-blank")
+								input(type="text", placeholder="password", class="input-Text tf-blank")
+								input(type="submit", value="Login", class="btn-green btn-login")
+								p Don't have an account? Register Here
