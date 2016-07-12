@@ -1,0 +1,19 @@
+.register-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	margin: 0 auto;
+	
+	h2 {
+		margin: $mainmargin;
+	}
+
+	input {
+		margin: $mainmargin;
+	}
+
+	.register {
+		flex-direction: flex-start;
+		width: 65%;
+	}
+}
