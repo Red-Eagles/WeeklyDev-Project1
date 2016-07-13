@@ -87,6 +87,19 @@ main {
     align-self: flex-start;
     margin: 1% 0 1%; }
 
+.register-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 0 auto; }
+  .register-wrapper h2 {
+    margin: 1%; }
+  .register-wrapper input {
+    margin: 1%; }
+  .register-wrapper .register {
+    flex-direction: flex-start;
+    width: 65%; }
+
 .add-edit-wrapper {
   flex-direction: column;
   display: flex;
